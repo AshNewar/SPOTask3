@@ -1,0 +1,153 @@
+
+*{
+    margin: 0;
+    padding: 0;
+} 
+body{
+    
+    background: url("background.png");
+    background-repeat: no-repeat;
+    color: white;
+
+}
+.body{
+    width: 100vw;
+    height: 100vh;
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+
+
+
+}  
+.head{
+    width: 18rem;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 2rem 0;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+#logo{
+    font-size: 1.4rem;
+    font-family: "Poppins" ,sans-serif;
+    font-weight: 800;
+    padding-left: 0;
+    color: #A371F7;
+    text-shadow: 1px 1px  rgb(177, 171, 171) ;
+}
+#login{
+    font-size: 1.8rem;
+    font-family: "Montserrat" ,sans-serif;
+    font-weight: 800;
+    padding-left: 0;
+    color: white;
+}
+.loginpage{
+        margin: auto auto;
+}
+
+#l_des{
+    margin-top: 2rem;
+    color:#c6c6c6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.inp_name{
+    margin-top: 3rem;
+    width: 18rem;
+    height: 3rem;
+    background-color:#1A1A1D;
+    border: 0.12rem solid #69749C;
+    border-radius: 1rem;
+}
+.name_placeholder{
+    position: absolute;
+    background-color: #1A1A1D;
+    padding: .1rem .4rem;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    margin-top:-0.8rem;
+    margin-left: 1.3rem;
+    color: white;
+    /* width: 4rem; */
+}
+#pass_inp_name{
+    margin-top: 2.5rem;
+}
+
+#pass_name_placeholder{
+    width: 5.6rem;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #1A1A1D inset;
+    -webkit-text-fill-color: white !important;
+}
+
+input, textarea{
+    background-color: #00000000;
+    color:white;
+}
+.username{
+    caret-color: #69749C;
+    margin-top:1rem;
+    border:none;
+    font-size: 1rem;
+    margin-left: 1rem;
+    fill: none;
+    background: transparent;
+    
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.bottom{
+    width: 18rem;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-top:3em;
+    cursor: pointer;
+}
+.attri{
+    padding:.2rem .4rem;
+    display: block;
+    background-color: #1A1A1D;
+}
+.mem{
+    color: white;
+    font-size: 1rem;
+}
+#goback {
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    font-family:'Inter', sans-serif; 
+    align-items: center;
+    padding:0.2em;
+}
+.continue{
+    font-family:'Inter', sans-serif; 
+    /* color:white; */
+    float:right;
+    font-weight: 600;
+    color: #EBE2FC;
+    background-color:#A371F7;
+    padding:0.6rem 1.5em;
+    border-radius:2.2em;
+}
+.continue:hover{
+    color: #A371F7;
+    background-color:#EBE2FC;
+}
+.loginpage{
+    border:1px solid #A371F7;
+    padding: 0 2rem 2rem 2rem;
+    border-radius: 1rem;
+}
